@@ -14,11 +14,15 @@ namespace ProblemTwo_CompilationError
         private DateTime dateTime;
         private object p;
         private string v4;
+        public static object eID;
+        public static object eName;
+        public static object eLevel;
+        public static object eDoJ;
 
         public Employee ReportsTo { get; set; }
         public string ProjectCode { get; set; }
 
-        public DirectReport(Employee managerEmpObj,string pCode) :base(eID,eName,eLevel,eDoJ)
+        public DirectReport(Employee managerEmpObj, string pCode) : base(eID, eName, eLevel, eDoJ)
         {
             ReportsTo = managerEmpObj;
             ProjectCode = pCode;

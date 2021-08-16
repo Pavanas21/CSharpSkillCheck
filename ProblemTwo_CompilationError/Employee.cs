@@ -8,6 +8,7 @@ namespace ProblemTwo_CompilationError
 {
     class Employee
     {
+        abstract override void  Employee(int EmpID, string EmpName, int EmpLevel, int NoOfLeaves);
         public int EmpID { get; set; }
         public string EmpName { get; set; }
         public int EmpLevel { get; set; }

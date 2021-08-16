@@ -8,10 +8,10 @@ namespace ProblemTwo_CompilationError
 {
     class Manager
     {
-        private static object eLevel;
-        private static object eName;
-        private static object eID;
-        private static object eDoJ;
+        public static object eLevel;
+        public static object eName;
+        public static object eID;
+        public static object eDoJ;
 
         public List<Employee> DirectReports { get; set; }
         public string CostCode { get; set; }

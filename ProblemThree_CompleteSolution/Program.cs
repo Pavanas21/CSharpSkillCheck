@@ -13,10 +13,10 @@ namespace ProblemThree_CompleteSolution
         static void Main(string[] args)
         {
             SampleCodeToTestYourClassImplementation
-            var organicPriceDict = new Dictionary<int, double>();
-            Key 1 for first product
+            var organicPriceDict= new Dictionary<int, double>();
+            //Key 1 for first product
             organicPriceDict.Add(1, 234.10);
-            Key 2 for second product
+            //Key 2 for second product
             organicPriceDict.Add(2, 100.100);
             var gosObj = new GourmetOrganicShop(1, "Non Polished Tur Dal", organicPriceDict);
             var gosTwoObj = new GourmetOrganicShop(2, "Non Polished Tur Dal", organicPriceDict);
@@ -27,9 +27,9 @@ namespace ProblemThree_CompleteSolution
 
            
             var coffeePriceDict = new Dictionary<int, double>();
-            Key 1 for first product
+            //Key 1 for first product
             coffeePriceDict.Add(1, 400.40);
-            Key 2 for second product
+            //Key 2 for second product
             coffeePriceDict.Add(2, 250.50);
             var coffObj = new GourmetCoffeeShop(1, "Arabica Coffee Powder Pre-Packed Container", coffeePriceDict);
             var coffTwoObj = new GourmetOrganicShop(2, "Arabica Coffee Poweder", organicPriceDict);
